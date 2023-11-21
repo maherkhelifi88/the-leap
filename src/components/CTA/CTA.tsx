@@ -17,10 +17,9 @@ export const CTA: FC<Props> = memo(function CTA(props = {}) {
   return (
     <div className={`${resets.storybrainResets} ${classes.root}`}>
       <div className={classes.title}>
-        <div className={classes.scheduleAFreeConsultation}>Schedule a free consultation</div>
+        <div className={classes.scheduleAFreeConsultation}>Book a free consultation session</div>
         <div className={classes.weHaveConsideredOurSolutionsTo}>
-          We have considered our solutions to support every stage of your growth. We are the fastest and easiest way to
-          launch.
+          Meet our team members to discuss your need and decide if we could help you with the next steps of your product development.
         </div>
       </div>
       <Button_StateNormalTypeSecondar
@@ -29,7 +28,7 @@ export const CTA: FC<Props> = memo(function CTA(props = {}) {
           iconOutlineArrowRight: true,
         }}
         text={{
-          getStartedNow: <div className={classes.getStartedNow}>Book a session</div>,
+          getStartedNow: <div className={classes.getStartedNow}>Get Started For Free </div>,
         }}
       />
     </div>

@@ -28,17 +28,14 @@ export const Hero: FC<Props> = memo(function Hero(props = {}) {
     <>
      <div className="main-container">
        <div className={classes.bg}></div>
-      <video autoPlay muted loop className={classes.video}>
-        <source src="/assets/Nue.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
+      <img src='/assets/logo.png'className={classes.video}/>
       <div className={classes.bg2}></div>
       <div className={classes.text}>
         <div className={classes.vector}>
           <VectorIcon className={classes.icon3} />
         </div>
         <div className={classes.YouMadeItSoSimp}>
-          Our team will help you tell a compelling story of your business.
+         We help you build your ideas... 
         </div>
       </div>
       <div className={classes.bg3}></div>
@@ -48,10 +45,10 @@ export const Hero: FC<Props> = memo(function Hero(props = {}) {
             <div className={classes.image}>
               <ImageIcon className={classes.icon4} />
             </div>
-            <div className={classes.freddy}>Freddy</div>
+            <div className={classes.freddy}>Sarah</div>
           </div>
           <button className={classes.button2}>
-            <div className={classes.marketing}>Marketing</div>
+            <div className={classes.marketing}>UX engineering</div>
           </button>
         </div>
         <div className={classes.line205}></div>
@@ -60,7 +57,7 @@ export const Hero: FC<Props> = memo(function Hero(props = {}) {
             <div className={classes.image2}>
               <ImageIcon2 className={classes.icon5} />
             </div>
-            <div className={classes.fiona}>Fiona</div>
+            <div className={classes.fiona}>Mike</div>
           </div>
           <button className={classes.button3}>
             <div className={classes.design}>Design</div>
@@ -72,10 +69,10 @@ export const Hero: FC<Props> = memo(function Hero(props = {}) {
             <div className={classes.ellipse19}>
               <Ellipse19Icon className={classes.icon6} />
             </div>
-            <div className={classes.juliana}>Juliana</div>
+            <div className={classes.juliana}>Chai</div>
           </div>
           <button className={classes.button4}>
-            <div className={classes.finance}>Finance</div>
+            <div className={classes.finance}>HR</div>
           </button>
         </div>
       </div>
@@ -86,8 +83,8 @@ export const Hero: FC<Props> = memo(function Hero(props = {}) {
           <ImageIcon3 className={classes.icon7} />
         </div>
         <div className={classes.text2}>
-          <div className={classes.codyFisher}>Cody Fisher</div>
-          <div className={classes.weProvideYouEverythingYouNeedF}>We provide you everything you need for any SAAS.</div>
+          <div className={classes.codyFisher}>Research</div>
+          <div className={classes.weProvideYouEverythingYouNeedF}>We turn your leap of faith into successful products</div>
         </div>
         <Button_StateNormalTypePrimary
           className={classes.button}
@@ -117,12 +114,12 @@ export const Hero: FC<Props> = memo(function Hero(props = {}) {
       <div className={classes.text3}>
         <div className={classes.mainTitle}>
           <div className={classes.tag}>
-            <div className={classes.contentCreation}>Content Creation</div>
+            <div className={classes.contentCreation}>BUILDING USER-CENTERED PRODUCTS</div>
           </div>
           <div className={classes.title}>
-            <div className={classes.connectWithCustomersSmartly}>Create personalized videos for your restaurant.</div>
+            <div className={classes.connectWithCustomersSmartly}>UX Engineering Studio.</div>
             <div className={classes.nexoProvidesYouEverythingYouNe}>
-              We are a passionate team of cretives, food entheusiasts, and storytellers who laverages the power of AI to help you tell your story.
+              We help innovators test, design, and build the products and services of tomorrow.
             </div>
           </div>
         </div>

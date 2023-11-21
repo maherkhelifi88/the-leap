@@ -341,7 +341,7 @@
   ._1 {
     position: absolute;
     left: 35px;
-    top: 1400px;
+    top: 1150px;
     width: min-content;
     height: 244.3534px;
     flex-direction: column;
@@ -427,7 +427,7 @@
   ._2 {
     position: absolute;
     left: 35px;
-    top: 1700px;
+    top: 1450px;
     width: min-content;
     height: 244.3534px;
     flex-direction: column;
@@ -513,7 +513,7 @@
   ._3 {
     position: absolute;
     left: 35px;
-    top: 2000px;
+    top: 1750px;
     width: min-content;
     height: 244.3534px;
     flex-direction: column;
@@ -620,7 +620,7 @@
     letter-spacing: -2px;
     position: absolute;
     left: 15px;
-    top: 1300px;
+    top: 1050px;
     width: 400px;
     height: 57px;
     text-align: center;

@@ -70,7 +70,7 @@ export const Footer: FC<Props> = memo(function Footer(props = {}) {
       </div>
       <div className={classes.cTA}>
         <div className={classes.title}>
-          <div className={classes.getStartedWithNexo}>Get Started With Kanteen</div>
+          <div className={classes.getStartedWithNexo}>Get Started With The Leap</div>
           <div className={classes.weHaveConsideredOurSolutionsTo}>
             We have considered our solutions to support every stage of your growth. We are the fastest and easiest way
             to launch SaaS showcase for our customers.

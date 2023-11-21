@@ -12,7 +12,7 @@ interface Props {
 export const OriginalLogo_TypeMain: FC<Props> = memo(function OriginalLogo_TypeMain(props = {}) {
   return (
     <div className={`${resets.storybrainResets} ${classes.root}`}>
-      <div className={classes.heading}>Kanteen</div>
+      <div className={classes.heading}>The Leap</div>
       <div className={classes.letterU1}>
       
       </div>

@@ -1,0 +1,258 @@
+.screenshot20231116At11491 {
+  position: absolute;
+  left: 992px;
+  top: 4321px;
+  width: 280px;
+  height: 43px;
+  background-image:/* webpackIgnore: true */ url('/assets/screenshot20231116At11491.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.leadership {
+  color: #000;
+  font-size: 48px;
+  line-height: 58px;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -2px;
+  position: absolute;
+  left: 650px;
+  top: 3960px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.image4 {
+  position: absolute;
+  left: 100px;
+  top: 4174px;
+  width: 277px;
+  height: 65px;
+  background-image:/* webpackIgnore: true */ url('/assets/image4.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.image5 {
+  position: absolute;
+  left: 400px;
+  top: 4166px;
+  width: 176px;
+  height: 60px;
+  background-image:/* webpackIgnore: true */ url('/assets/image5.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.image6 {
+  position: absolute;
+  left: 809px;
+  top:4166px;
+  width: 213px;
+  height: 82px;
+  background-image:/* webpackIgnore: true */ url('/assets/image6.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.image9 {
+  position: absolute;
+  left: 404px;
+  top: 4295px;
+  width: 70px;
+  height: 78px;
+  background-image:/* webpackIgnore: true */ url('/assets/image9.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.image11 {
+  position: absolute;
+  left: 592px;
+  top: 4174px;
+  width: 257px;
+  height: 77px;
+  background-image:/* webpackIgnore: true */ url('/assets/image11.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.image7 {
+  position: absolute;
+  left: 1096px;
+  top: 4176px;
+  width: 234px;
+  height: 45px;
+  background-image:/* webpackIgnore: true */ url('/assets/image7.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.image8 {
+  position: absolute;
+  left: 113px;
+  top: 4285px;
+  width: 219px;
+  height: 88px;
+  background-image:/* webpackIgnore: true */ url('/assets/image8.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.image10 {
+  position: absolute;
+  left: 801px;
+  top: 4285px;
+  width: 83px;
+  height: 100px;
+  background-image:/* webpackIgnore: true */ url('/assets/image10.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.image12 {
+  position: absolute;
+  left: 522px;
+  top: 4285px;
+  width: 201px;
+  height: 118px;
+  background-image:/* webpackIgnore: true */ url('/assets/image12.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .screenshot20231116At11491 {
+    position: absolute;
+    left: 20px;
+    top: 5221px;
+    width: 280px;
+    height: 43px;
+    background-image:/* webpackIgnore: true */ url('/assets/screenshot20231116At11491.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .leadership {
+    color: #000;
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: 600;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -2px;
+    position: absolute;
+    left: 100px;
+    top: 4660px;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  .image4 {
+    position: absolute;
+    left: 10px;
+    top: 4774px;
+    width: 277px;
+    height: 65px;
+    background-image:/* webpackIgnore: true */ url('/assets/image4.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .image5 {
+    position: absolute;
+    left: 10px;
+    top: 4866px;
+    width: 176px;
+    height: 60px;
+    background-image:/* webpackIgnore: true */ url('/assets/image5.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .image6 {
+    position: absolute;
+    left: 200px;
+    top:4866px;
+    width: 213px;
+    height: 82px;
+    background-image:/* webpackIgnore: true */ url('/assets/image6.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .image9 {
+    position: absolute;
+    left: 320px;
+    top: 4770px;
+    width: 70px;
+    height: 78px;
+    background-image:/* webpackIgnore: true */ url('/assets/image9.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .image11 {
+    position: absolute;
+    left: -35px;
+    top: 4974px;
+    width: 257px;
+    height: 77px;
+    background-image:/* webpackIgnore: true */ url('/assets/image11.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .image7 {
+    position: absolute;
+    left: 190px;
+    top:4976px;
+    width: 234px;
+    height: 45px;
+    background-image:/* webpackIgnore: true */ url('/assets/image7.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .image8 {
+    position: absolute;
+    left: 20px;
+    top: 5070px;
+    width: 219px;
+    height: 88px;
+    background-image:/* webpackIgnore: true */ url('/assets/image8.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .image10 {
+    position: absolute;
+    left: 320px;
+    top: 5170px;
+    width: 83px;
+    height: 100px;
+    background-image:/* webpackIgnore: true */ url('/assets/image10.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .image12 {
+    position: absolute;
+    left: 235px;
+    top: 5064px;
+    width: 201px;
+    height: 118px;
+    background-image:/* webpackIgnore: true */ url('/assets/image12.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+}

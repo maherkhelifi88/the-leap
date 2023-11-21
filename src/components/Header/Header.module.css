@@ -13,7 +13,7 @@
   align-items: center;
   z-index: 2;
   margin-top: 25px;
-  margin-left: -540px;
+  margin-left: -00px;
 }
 .menu {
   width: min-content;
@@ -78,7 +78,7 @@
     align-items: center;
     z-index: 2;
     margin-top: 25px;
-    margin-left: -400px;
+    margin-left: -20px;
   }
   .menu {
     display:none;

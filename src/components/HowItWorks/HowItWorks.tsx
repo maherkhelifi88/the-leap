@@ -27,9 +27,9 @@ export const HowItWorks: FC<Props> = memo(function HowItWorks(props = {}) {
           <div className={classes._12}>01</div>
         </div>
         <div className={classes.text}>
-          <div className={classes.uploadYourVideos}>Upload your videos</div>
+          <div className={classes.uploadYourVideos}>Refine your idea</div>
           <div className={classes.creatingAccountToOurWebsiteAnd}>
-            Creating account to our website and use it for your required time. We always ready to give you support all
+          Creating account to our website and use it for your required time. We always ready to give you support all
             the time.
           </div>
         </div>
@@ -42,7 +42,7 @@ export const HowItWorks: FC<Props> = memo(function HowItWorks(props = {}) {
           <div className={classes._22}>02</div>
         </div>
         <div className={classes.text2}>
-          <div className={classes.getOurExpertsFeeback}>Get our experts feeback</div>
+          <div className={classes.getOurExpertsFeeback}>Test your market fit</div>
           <div className={classes.creatingAccountToOurWebsiteAnd2}>
             Creating account to our website and use it for your required time. We always ready to give you support all
             the time.
@@ -57,7 +57,7 @@ export const HowItWorks: FC<Props> = memo(function HowItWorks(props = {}) {
           <div className={classes._32}>03</div>
         </div>
         <div className={classes.text3}>
-          <div className={classes.receiveNewSocialContent}>Receive new social content</div>
+          <div className={classes.receiveNewSocialContent}>Outline your product plan</div>
           <div className={classes.creatingAccountToOurWebsiteAnd3}>
             Creating account to our website and use it for your required time. We always ready to give you support all
             the time.
@@ -82,7 +82,7 @@ export const HowItWorks: FC<Props> = memo(function HowItWorks(props = {}) {
           icon: <IconOutlineCheveronRightIcon2 className={classes.icon2} />,
         }}
       />
-      <div className={classes.howKanteenWorks}>How Kanteen works?</div>
+      <div className={classes.howKanteenWorks}>Test your next feature</div>
     </>
   );
 });

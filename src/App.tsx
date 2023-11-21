@@ -10,22 +10,28 @@ import { Text } from './components/Text/Text';
 import { Texttwo } from './components/Texttwo/Text';
 import { Textthree } from './components/Textthree/Text';
 import { CTA } from './components/CTA/CTA';
+import { CTAB } from './components/CTAB/CTA';
 import { Content } from './components/Content/Content';
 import { Footer } from './components/Footer/Footer';
+import { Content3 } from './components/Content3/Content3';
+import { Content4 } from './components/Content4/Content3';
+import { Team } from './components/Team/Team';
+import { Group427318988} from './components/Group427318988/Group427318988';
 interface Props {
   className?: string;
 }
 export const App: FC<Props> = memo(function App(props = {}) {
   return (
     <div className={`${resets.storybrainResets} ${classes.root}`}>
-      <Text />
-      <Texttwo />
-      <Textthree />
-      <Content/>
-      <Header />
+      <Header />      
       <CTA />
+      <Content3/>
+      <Content4/>
       <Hero />
       <HowItWorks />
+      <Team/>
+      <Group427318988/>
+      <CTAB />
       <Footer />
     </div>
   );

@@ -1,0 +1,253 @@
+.getStartedNow {
+  color: #083c2f;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.3px;
+  width: min-content;
+  height: min-content;
+  text-align: end;
+  align-items: end;
+  white-space: nowrap;
+  flex-direction: column;
+}
+
+.bg {
+  position: absolute;
+  left: -0px;
+  top: 1872px;
+  width: 1600px;
+  height: 743px;
+  background-color: #fff;
+}
+.text {
+  position: absolute;
+  left: 864px;
+  top: 1880px;
+  width: min-content;
+  height: min-content;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 50px;
+}
+.title {
+  width: min-content;
+  height: min-content;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+.title2 {
+  width: min-content;
+  height: min-content;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+.tag {
+  width: min-content;
+  height: min-content;
+  place-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 7px 15px;
+  border-radius: 48px;
+  background-color: #ffc48d;
+}
+.nEWMARKETINGANALYTICS {
+  color: #083c2f;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.3px;
+  width: min-content;
+  height: min-content;
+  text-align: end;
+  align-items: end;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.weFocusOnYourUltimateGoalToCom {
+  background-image: linear-gradient(180deg, #083c2fff 0%, #083c2f82 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 48px;
+  line-height: 58px;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -2px;
+  width: 542px;
+  height: min-content;
+  flex-direction: column;
+}
+.creatingAccountToOurWebsiteAnd {
+  color: #3c4a47;
+  font-size: 18px;
+  line-height: 28px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.3px;
+  width: 492px;
+  height: min-content;
+  flex-direction: column;
+}
+.image {
+  position: absolute;
+  left: 99px;
+  top: 1993px;
+  width: 620px;
+  height: 502px;
+  place-content: center;
+  align-items: center;
+  padding: 322.9119px 364.7509px;
+  border-radius: 60px;
+  background-color: #dbeafe;
+  overflow: hidden;
+}
+.linkedinSalesSolutions1A8yP_5m {
+  position: absolute;
+  left: 80px;
+  top: 1800px;
+  width: 698px;
+  height: 528px;
+  border-radius: 40px;
+  z-index: 5;
+}
+/* Mobile-specific styles */
+@media screen and (max-width: 700px) {
+
+  .getStartedNow {
+    color: #083c2f;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -0.3px;
+    width: min-content;
+    height: min-content;
+    text-align: end;
+    align-items: end;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  
+  .bg {
+    position: absolute;
+    left: -0px;
+    top: 1872px;
+    width: 1600px;
+    height: 743px;
+    background-color: #fff;
+  }
+  .text {
+    position: absolute;
+    left: 24px;
+    top: 2350px;
+    width: 400px;
+    height: min-content;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 50px;
+  }
+  .title {
+    width: 20px;
+    height: min-content;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+  }
+  .title2 {
+    width: min-content;
+    height: min-content;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+  }
+  .tag {
+    width: min-content;
+    height: min-content;
+    place-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 7px 15px;
+    border-radius: 48px;
+    background-color: #ffc48d;
+  }
+  .nEWMARKETINGANALYTICS {
+    color: #083c2f;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 600;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: 0.3px;
+    width: min-content;
+    height: min-content;
+    text-align: end;
+    align-items: end;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  .weFocusOnYourUltimateGoalToCom {
+    background-image: linear-gradient(180deg, #083c2fff 0%, #083c2f82 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 38px;
+    line-height: 58px;
+    font-weight: 600;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -2px;
+    width: 382px;
+    height: min-content;
+    flex-direction: column;
+  }
+  .creatingAccountToOurWebsiteAnd {
+    color: #3c4a47;
+    font-size: 18px;
+    line-height: 28px;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -0.3px;
+    width: 392px;
+    height: min-content;
+    flex-direction: column;
+  }
+  .image {
+    position: absolute;
+    left: 99px;
+    top: 1993px;
+    width: 620px;
+    height: 502px;
+    place-content: center;
+    align-items: center;
+    padding: 322.9119px 364.7509px;
+    border-radius: 60px;
+    background-color: #dbeafe;
+    overflow: hidden;
+  }
+  .linkedinSalesSolutions1A8yP_5m {
+    position: absolute;
+    left: 40px;
+    top: 2700px;
+    width: 358px;
+    height: 328px;
+    border-radius: 40px;
+    z-index: 5;
+  }
+
+}

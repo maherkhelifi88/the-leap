@@ -16,7 +16,7 @@
 .bg {
   position: absolute;
   left: 0;
-  top: 4568px;
+  top: 4968px;
   width: 100%;
   height: 858px;
   background-color: #083c2f;
@@ -30,7 +30,7 @@
   letter-spacing: -0.3px;
   position: absolute;
   left: 633px;
-  top: 5363px;
+  top: 5763px;
   width: min-content;
   height: min-content;
   white-space: nowrap;
@@ -39,7 +39,7 @@
 .line4 {
   position: absolute;
   left: 152px;
-  top: 5317px;
+  top: 5717px;
   width: 1296px;
   max-width: 100%;
   height: 0;
@@ -50,7 +50,7 @@
 .col {
   position: absolute;
   left: 152px;
-  top: 5023px;
+  top: 5423px;
   width: min-content;
   height: min-content;
   align-items: flex-start;
@@ -365,7 +365,7 @@
 .cTA {
   position: absolute;
   left: 447px;
-  top: 4650px;
+  top: 5050px;
   width: min-content;
   height: min-content;
   flex-direction: column;
@@ -434,8 +434,8 @@
   .bg {
     position: absolute;
     left: 0;
-    top: 6368px;
-    width: 100%;
+    top: 5868px;
+    width: 120%;
     height: 858px;
     background-color: #083c2f;
   }
@@ -448,7 +448,7 @@
     letter-spacing: -0.3px;
     position: absolute;
     left: 50px;
-    top: 7180px;
+    top: 6680px;
     width: min-content;
     height: min-content;
     white-space: nowrap;
@@ -457,7 +457,7 @@
   .line4 {
     position: absolute;
     left: 20px;
-    top: 7170px;
+    top: 6670px;
     width:300px;
     max-width: 100%;
     height: 0;
@@ -468,7 +468,7 @@
   .col {
     position: absolute;
     left: 20px;
-    top: 6723px;
+    top: 6223px;
     width: min-content;
     height: min-content;
     align-items: flex-start;
@@ -792,7 +792,7 @@
   .cTA {
     position: absolute;
     left: 10px;
-    top:6400px;
+    top:5900px;
     width: min-content;
     height: min-content;
     flex-direction: column;

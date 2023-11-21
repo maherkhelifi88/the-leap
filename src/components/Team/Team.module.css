@@ -1,0 +1,544 @@
+.bg {
+  position: absolute;
+  left: 39px;
+  top: 5252px;
+  width: 1600px;
+  height: 759px;
+  background-color: #fff;
+}
+.team {
+  position: absolute;
+  left: 91px;
+  top: 3408px;
+  width: min-content;
+  height: min-content;
+  align-items: flex-start;
+  gap: 24px;
+}
+._1 {
+  position: relative;
+  width: 306px;
+  height: 398px;
+}
+.text {
+  position: absolute;
+  left: 0;
+  right: 63.3987%;
+  top: 86.4322%;
+  bottom: 0;
+  width: min-content;
+  height: min-content;
+  align-self: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+}
+.hyeonVivek {
+  color: #083c2f;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.3px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.cEOFounder {
+  color: #3c4a47;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.3px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.rectangle415 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 19.598%;
+  width: 306px;
+  height: 320px;
+  border-radius: 8px;
+  background-image:/* webpackIgnore: true */ url('/assets/rectangle415.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+._2 {
+  position: relative;
+  width: 306px;
+  height: 398px;
+}
+.text2 {
+  position: absolute;
+  left: 0;
+  right: 65.3595%;
+  top: 86.4322%;
+  bottom: 0;
+  width: min-content;
+  height: min-content;
+  align-self: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+}
+.sarahTaylor {
+  color: #083c2f;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.3px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.cTO {
+  color: #3c4a47;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.3px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.rectangle4152 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 19.598%;
+  width: 306px;
+  height: 320px;
+  border-radius: 8px;
+  background-image:/* webpackIgnore: true */ url('/assets/rectangle4152.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+._3 {
+  position: relative;
+  width: 306px;
+  height: 398px;
+}
+.rectangle4153 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 19.598%;
+  width: 306px;
+  height: 320px;
+  border-radius: 8px;
+  background-image:/* webpackIgnore: true */ url('/assets/rectangle4153.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.text3 {
+  position: absolute;
+  left: 0;
+  right: 58.1699%;
+  top: 86.4322%;
+  bottom: 0;
+  width: min-content;
+  height: min-content;
+  align-self: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+}
+.danielJackson {
+  color: #083c2f;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.3px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.cMO {
+  color: #3c4a47;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.3px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+._4 {
+  position: relative;
+  width: 306px;
+  height: 398px;
+}
+.rectangle4154 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 19.598%;
+  width: 306px;
+  height: 320px;
+  border-radius: 8px;
+  background-image:/* webpackIgnore: true */ url('/assets/rectangle4154.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.text4 {
+  position: absolute;
+  left: 0;
+  right: 49.6732%;
+  top: 86.4322%;
+  bottom: 0;
+  width: min-content;
+  height: min-content;
+  align-self: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+}
+.laurenThompson {
+  color: #083c2f;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.3px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.cOO {
+  color: #3c4a47;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.3px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.ourTeamBehindAllTheSuccessWeHa {
+  background-image: linear-gradient(180deg, #083c2fff 0%, #083c2f82 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 48px;
+  line-height: 58px;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -2px;
+  position: absolute;
+  left: 541px;
+  top: 3218px;
+  width: 496px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+
+  .bg {
+    position: absolute;
+    left: 39px;
+    top: 5252px;
+    width: 1600px;
+    height: 759px;
+    background-color: #fff;
+  }
+  .team {
+    position: absolute;
+    left: 20px;
+    top: 4058px;
+    width: min-content;
+    height: min-content;
+   
+    gap: 10px;
+  }
+  ._1 {
+    position: relative;
+    width: 206px;
+    height: 298px;
+  }
+  .text {
+    position: absolute;
+    left: 0;
+    right: 63.3987%;
+    top: 66.4322%;
+    bottom: 0;
+    width: min-content;
+    height: min-content;
+    align-self: flex-start;
+    align-items: flex-start;
+    gap: 2px;
+  }
+  .hyeonVivek {
+    color: #083c2f;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -0.3px;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  .cEOFounder {
+    color: #3c4a47;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -0.3px;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  .rectangle415 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 19.598%;
+    width: 180px;
+    height: 180px;
+    border-radius: 8px;
+    background-image:/* webpackIgnore: true */ url('/assets/rectangle415.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  ._2 {
+    position: relative;
+    width: 306px;
+    height: 398px;
+  }
+  .text2 {
+    position: absolute;
+    left: 0;
+    right: 65.3595%;
+    top: 50.4322%;
+    bottom: 0;
+    width: min-content;
+    height: min-content;
+    align-self: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+  }
+  .sarahTaylor {
+    color: #083c2f;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -0.3px;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  .cTO {
+    color: #3c4a47;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -0.3px;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  .rectangle4152 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 19.598%;
+    width: 180px;
+    height: 180px;
+    border-radius: 8px;
+    background-image:/* webpackIgnore: true */ url('/assets/rectangle4152.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  ._3 {
+    position: absolute;
+    width: 306px;
+    height: 398px;
+    left:0px;
+    top: 278px;
+  }
+  .rectangle4153 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 19.598%;
+    width: 180px;
+    height: 180px;
+    border-radius: 8px;
+    background-image:/* webpackIgnore: true */ url('/assets/rectangle4153.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .text3 {
+    position: absolute;
+    left: 0;
+    right: 58.1699%;
+    top: 50.4322%;
+    bottom: 0;
+    width: min-content;
+    height: min-content;
+    align-self: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+  }
+  .danielJackson {
+    color: #083c2f;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -0.3px;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  .cMO {
+    color: #3c4a47;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -0.3px;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  ._4 {
+    position: absolute;
+    width: 306px;
+    height: 398px;
+    left:210px;
+    top: 278px;
+  }
+  .rectangle4154 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 19.598%;
+    width: 180px;
+    height: 180px;
+    border-radius: 8px;
+    background-image:/* webpackIgnore: true */ url('/assets/rectangle4154.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .text4 {
+    position: absolute;
+    left: 0;
+    right: 49.6732%;
+    top: 50.4322%;
+    bottom: 0;
+    width: min-content;
+    height: min-content;
+    align-self: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+  }
+  .laurenThompson {
+    color: #083c2f;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -0.3px;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  .cOO {
+    color: #3c4a47;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -0.3px;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  .ourTeamBehindAllTheSuccessWeHa {
+    background-image: linear-gradient(180deg, #083c2fff 0%, #083c2f82 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 38px;
+    line-height: 58px;
+    font-weight: 600;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -2px;
+    position: absolute;
+    left: 21px;
+    top: 3920px;
+    width:396px;
+    height: min-content;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+  } 
+
+}
