@@ -1,11 +1,4 @@
-.bg {
-  position: absolute;
-  left: 39px;
-  top: 5252px;
-  width: 1600px;
-  height: 759px;
-  background-color: #fff;
-}
+
 .team {
   position: absolute;
   left: 91px;
@@ -268,15 +261,6 @@
 }
 /* Media query for mobile devices */
 @media (max-width: 768px) {
-
-  .bg {
-    position: absolute;
-    left: 39px;
-    top: 5252px;
-    width: 1600px;
-    height: 759px;
-    background-color: #fff;
-  }
   .team {
     position: absolute;
     left: 20px;

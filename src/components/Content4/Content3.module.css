@@ -13,14 +13,7 @@
   white-space: nowrap;
   flex-direction: column;
 }
-.bg {
-  position: absolute;
-  left: -6px;
-  top: 2742px;
-  width: 1600px;
-  height: 568px;
-  background-color: #fff;
-}
+
 .image {
   position: absolute;
   left: 821px;
@@ -198,14 +191,7 @@
     white-space: nowrap;
     flex-direction: column;
   }
-  .bg {
-    position: absolute;
-    left: -6px;
-    top: 2742px;
-    width: 1600px;
-    height: 568px;
-    background-color: #fff;
-  }
+
   .image {
     position: absolute;
     left: 821px;

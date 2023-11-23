@@ -5,7 +5,7 @@ import resets from '../_resets.module.css';
 import { Button_StateNormalTypePrimary } from './Button_StateNormalTypePrimary/Button_StateNormalTypePrimary';
 import classes from './Footer.module.css';
 import { OriginalLogo_TypeDark } from './OriginalLogo_TypeDark/OriginalLogo_TypeDark';
-
+import { useNavigate } from 'react-router-dom';
 interface Props {
   className?: string;
   hide?: {
@@ -15,6 +15,11 @@ interface Props {
 }
 /* @figmaId 70:1551 */
 export const Footer: FC<Props> = memo(function Footer(props = {}) {
+  const navigate = useNavigate();
+
+  const navigateToContact = (event: React.MouseEvent<HTMLButtonElement>) => {
+    navigate('/contact');
+  };
   return (
     <>
      <div className={`${resets.storybrainResets} ${classes.root}`}>
@@ -34,7 +39,7 @@ export const Footer: FC<Props> = memo(function Footer(props = {}) {
           <div className={classes.list}>
             <div className={classes.about}>About</div>
             <div className={classes.pricing}>Pricing</div>
-            <div className={classes.blog}>Blog</div>
+            <div className={classes.blog} >Contact</div>
             <div className={classes.careers}>Careers</div>
           </div>
         </div>

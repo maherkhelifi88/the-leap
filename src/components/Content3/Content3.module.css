@@ -14,14 +14,6 @@
   flex-direction: column;
 }
 
-.bg {
-  position: absolute;
-  left: -0px;
-  top: 1872px;
-  width: 1600px;
-  height: 743px;
-  background-color: #fff;
-}
 .text {
   position: absolute;
   left: 864px;

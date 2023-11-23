@@ -1,4 +1,9 @@
 /* Existing styles for larger screens */
+.img{
+  left:-10px;
+  top: -100px;
+  width: 250px;
+}
 .button.button {
   left: 24.8936%;
   right: 0;
@@ -12,8 +17,8 @@
   place-content: space-between;
   align-items: center;
   z-index: 2;
-  margin-top: 25px;
-  margin-left: 30px;
+  margin-top: -60px;
+  margin-left: 50px;
 }
 .menu {
   width:800px;
@@ -22,6 +27,7 @@
   align-items: center;
   gap: 42px;
   left:100px;
+  margin-top:15px;
 }
 .home,
 .about,
