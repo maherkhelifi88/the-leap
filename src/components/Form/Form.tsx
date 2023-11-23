@@ -20,7 +20,7 @@ export const Form: FC<Props> = memo(function Form(props = {}) {
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     try {
-        const response = await axios.post('http://localhost:3001/send', formData);
+        const response = await axios.post('https://theleap-07dbd05b8d42.herokuapp.com/send', formData);
         console.log(response.data.message);
         setShowAlert(true);
         // Handle success (e.g., show success message)
