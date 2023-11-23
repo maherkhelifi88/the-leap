@@ -17,13 +17,14 @@ interface Props {
     iconOutlineCheckCircle?: boolean;
     iconOutlineArrowRight?: boolean;
   };
+  onClick?: (event: React.MouseEvent<HTMLButtonElement>) => void;
 }
 /* @figmaId 7308:1726 */
 export const Button_StateNormalTypeSmall: FC<Props> = memo(function Button_StateNormalTypeSmall(props = {}) {
   return (
     <button
       className={`${resets.storybrainResets} ${props.classes?.root || ''} ${props.className || ''} ${classes.root}`}
-    >
+      onClick={props.onClick} >
       {!props.hide?.iconOutlineCheckCircle && (
         <IconOutlineCheckCircle
           className={classes.iconOutlineCheckCircle}

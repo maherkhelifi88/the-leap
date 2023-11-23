@@ -1,0 +1,714 @@
+.button.button {
+  width: 863px;
+  background-color: #c9f269;
+}
+.alert {
+  position: absolute;
+  width: 100%; /* Adjust as needed */
+  top: 100%; /* Position it below the button */
+  left: 0;
+  transform: translateY(10px); /* Adjust the vertical spacing as needed */
+  z-index: 1000; /* Ensure it's above other elements */
+}
+.getStartedNow {
+  color: #083c2f;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.3px;
+  width: min-content;
+  height: min-content;
+  text-align: end;
+  align-items: end;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.box {
+  position: absolute;
+  left: 310px;
+  top: 1004px;
+  width: 864px;
+  height: min-content;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  border-radius: 16px;
+}
+._1 {
+  position: relative;
+  width: 863px;
+  height: 94px;
+}
+.rectangle463 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 36.1702%;
+  bottom: 0;
+  width: 863px;
+  height: 60px;
+  outline: solid 1px #ffffff;
+  outline-offset: -1px;
+  border-radius: 8px;
+  background-color: #fff;
+}
+.eGMarkJones {
+  color: #3c4a47;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.3px;
+  position: absolute;
+  left: 2.4334%;
+  right: 84.1251%;
+  top: 55.3191%;
+  bottom: 19.1489%;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.yourName {
+  color: #083c2f;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.3px;
+  position: absolute;
+  left: 0.1159%;
+  right: 90.3824%;
+  top: 0;
+  bottom: 74.4681%;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+._4 {
+  position: relative;
+  width: 863px;
+  height: 94px;
+}
+
+.eGMarkJones2 {
+  color: #3c4a47;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.3px;
+  position: absolute;
+  left: 2.4334%;
+  right: 84.1251%;
+  top: 55.3191%;
+  bottom: 19.1489%;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.yourInstagramTikTok {
+  color: #083c2f;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.3px;
+  position: absolute;
+  left: 0.1159%;
+  right: 80.3013%;
+  top: 0;
+  bottom: 74.4681%;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+._6 {
+  position: relative;
+  width: 863px;
+  height: 94px;
+}
+
+.eGMarkJones3 {
+  color: #3c4a47;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.3px;
+  position: absolute;
+  left: 2.4334%;
+  right: 84.1251%;
+  top: 55.3191%;
+  bottom: 19.1489%;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.whatsApp {
+  color: #083c2f;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.3px;
+  position: absolute;
+  left: 0.1159%;
+  right: 90.6141%;
+  top: 0;
+  bottom: 74.4681%;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+._2 {
+  position: relative;
+  width: 863px;
+  height: 94px;
+}
+
+.eGUserEmailCom {
+  color: #3c4a47;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.3px;
+  position: absolute;
+  left: 2.4334%;
+  right: 79.9537%;
+  top: 55.3191%;
+  bottom: 19.1489%;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.email {
+  color: #083c2f;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.3px;
+  position: absolute;
+  left: 0.1159%;
+  right: 95.1333%;
+  top: 0;
+  bottom: 74.4681%;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+._3 {
+  position: relative;
+  width: 863px;
+  height: 193px;
+}
+.rectangle4635 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 17.6166%;
+  bottom: 0;
+  width: 863px;
+  height: 159px;
+  outline: solid 1px #ffffff;
+  outline-offset: -1px;
+  border-radius: 8px;
+  background-color: #fff;
+}
+.typeYourMessage {
+  color: #3c4a47;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.3px;
+  position: absolute;
+  left: 2.4334%;
+  right: 80.9965%;
+  top: 25.9067%;
+  bottom: 61.658%;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.aboutTheRestaurant {
+  color: #083c2f;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.3px;
+  position: absolute;
+  left: 0.1159%;
+  right: 81.8076%;
+  top: 0;
+  bottom: 87.5648%;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+._5 {
+  position: relative;
+  width: 863px;
+  height: 94px;
+}
+.rectangle4636 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 36.1702%;
+  bottom: 0;
+  width: 863px;
+  height: 60px;
+  outline: solid 1px #e3e5ea;
+  outline-offset: -1px;
+  border-radius: 8px;
+  background-color: #fff;
+}
+.searchForVideosAddICloudShared {
+  color: #3c4a47;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.3px;
+  position: absolute;
+  left: 2.4334%;
+  right: 61.993%;
+  top: 55.3191%;
+  bottom: 19.1489%;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.uploadVideos {
+  color: #083c2f;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.3px;
+  position: absolute;
+  left: 0.1159%;
+  right: 87.4855%;
+  top: 0;
+  bottom: 74.4681%;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.newRestaurantCoverageRequest {
+  background-image: linear-gradient(180deg, #083c2fff 0%, #083c2f82 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 48px;
+  line-height: 58px;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -2px;
+  position: absolute;
+  left: 530px;
+  top: 895px;
+  width: min-content;
+  height:80px;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+
+
+/* Mobile-specific styles */
+@media screen and (max-width: 700px) {
+
+
+  .button.button {
+    width: 363px;
+    background-color: #c9f269;
+  }
+  .getStartedNow {
+    color: #083c2f;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -0.3px;
+    width: min-content;
+    height: min-content;
+    text-align: end;
+    align-items: end;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  .box {
+    position: absolute;
+    left: 20px;
+    top: 1250px;
+    width: 504px;
+    height: min-content;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    border-radius: 16px;
+  }
+  ._1 {
+    position: relative;
+    width: 363px;
+    height: 94px;
+  }
+  .rectangle463 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 36.1702%;
+    bottom: 0;
+    width: 163px;
+    height: 60px;
+    outline: solid 1px #ffffff;
+    outline-offset: -1px;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  .eGMarkJones {
+    color: #3c4a47;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -0.3px;
+    position: absolute;
+    left: 2.4334%;
+    right: 84.1251%;
+    top: 55.3191%;
+    bottom: 19.1489%;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  .yourName {
+    color: #083c2f;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -0.3px;
+    position: absolute;
+    left: 0.1159%;
+    right: 90.3824%;
+    top: 0;
+    bottom: 74.4681%;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  ._4 {
+    position: relative;
+    width: 363px;
+    height: 94px;
+  }
+  
+  .eGMarkJones2 {
+    color: #3c4a47;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -0.3px;
+    position: absolute;
+    left: 2.4334%;
+    right: 84.1251%;
+    top: 55.3191%;
+    bottom: 19.1489%;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  .yourInstagramTikTok {
+    color: #083c2f;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -0.3px;
+    position: absolute;
+    left: 0.1159%;
+    right: 80.3013%;
+    top: 0;
+    bottom: 74.4681%;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  ._6 {
+    position: relative;
+    width: 363px;
+    height: 94px;
+  }
+  
+  .eGMarkJones3 {
+    color: #3c4a47;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -0.3px;
+    position: absolute;
+    left: 2.4334%;
+    right: 84.1251%;
+    top: 55.3191%;
+    bottom: 19.1489%;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  .whatsApp {
+    color: #083c2f;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -0.3px;
+    position: absolute;
+    left: 0.1159%;
+    right: 90.6141%;
+    top: 0;
+    bottom: 74.4681%;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  ._2 {
+    position: relative;
+    width: 363px;
+    height: 94px;
+  }
+  
+  .eGUserEmailCom {
+    color: #3c4a47;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -0.3px;
+    position: absolute;
+    left: 2.4334%;
+    right: 79.9537%;
+    top: 55.3191%;
+    bottom: 19.1489%;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  .email {
+    color: #083c2f;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -0.3px;
+    position: absolute;
+    left: 0.1159%;
+    right: 95.1333%;
+    top: 0;
+    bottom: 74.4681%;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  ._3 {
+    position: relative;
+    width: 363px;
+    height: 193px;
+  }
+  .rectangle4635 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 17.6166%;
+    bottom: 0;
+    width: 363px;
+    height: 159px;
+    outline: solid 1px #ffffff;
+    outline-offset: -1px;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  .typeYourMessage {
+    color: #3c4a47;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -0.3px;
+    position: absolute;
+    left: 2.4334%;
+    right: 80.9965%;
+    top: 25.9067%;
+    bottom: 61.658%;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  .aboutTheRestaurant {
+    color: #083c2f;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -0.3px;
+    position: absolute;
+    left: 0.1159%;
+    right: 81.8076%;
+    top: 0;
+    bottom: 87.5648%;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  ._5 {
+    position: relative;
+    width: 363px;
+    height: 94px;
+  }
+  .rectangle4636 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 36.1702%;
+    bottom: 0;
+    width: 363px;
+    height: 60px;
+    outline: solid 1px #e3e5ea;
+    outline-offset: -1px;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  .searchForVideosAddICloudShared {
+    color: #3c4a47;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -0.3px;
+    position: absolute;
+    left: 2.4334%;
+    right: 61.993%;
+    top: 55.3191%;
+    bottom: 19.1489%;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  .uploadVideos {
+    color: #083c2f;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -0.3px;
+    position: absolute;
+    left: 0.1159%;
+    right: 87.4855%;
+    top: 0;
+    bottom: 74.4681%;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  .newRestaurantCoverageRequest {
+    background-image: linear-gradient(180deg, #083c2fff 0%, #083c2f82 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 35px;
+    line-height: 58px;
+    font-weight: 600;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -2px;
+    position: absolute;
+    left: 60px;
+    top: 1150px;
+    max-width: 450px; /* Added */
+    height: auto; /* Adjusted */
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .newRestaurantCoverageRequestt {
+    background-image: linear-gradient(180deg, #083c2fff 0%, #083c2f82 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 35px;
+    line-height: 58px;
+    font-weight: 600;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -2px;
+    position: absolute;
+    left: 150px;
+    top: 1250px;
+    max-width: 400px; /* Added */
+    height: auto; /* Adjusted */
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  
+
+
+
+}

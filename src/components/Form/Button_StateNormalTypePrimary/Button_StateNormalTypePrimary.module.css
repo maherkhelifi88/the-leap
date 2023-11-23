@@ -1,0 +1,42 @@
+.iconOutlineCheckCircle.iconOutlineCheckCircle {
+  width: 16px;
+  height: 16px;
+}
+.icon {
+  width: 100%;
+  height: 100%;
+}
+.iconOutlineArrowRight.iconOutlineArrowRight {
+  width: 16px;
+  height: 16px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+.icon2 {
+  width: 100%;
+  height: 100%;
+}
+.root {
+  width: min-content;
+  height: min-content;
+  place-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 16px 20px;
+  border-radius: 8px;
+  background-color: #4232f9;
+}
+.getStartedNow {
+  color: #fff;
+  font-size: 16px;
+  line-height: 150%;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.3px;
+  width: min-content;
+  height: min-content;
+  text-align: end;
+  align-items: end;
+  white-space: nowrap;
+  flex-direction: column;
+}

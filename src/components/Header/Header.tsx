@@ -8,7 +8,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Container from 'react-bootstrap/Container';
-
+import { useNavigate } from 'react-router-dom';
 interface Props {
   className?: string;
   hide?: {
@@ -22,6 +22,11 @@ export const Header: FC<Props> = memo(function Header(props = {}) {
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
+  };
+  const navigate = useNavigate();
+
+  const handleOpen = (event: React.MouseEvent<HTMLButtonElement>) => {
+    navigate('/influencer');
   };
 
   return (
@@ -44,7 +49,7 @@ export const Header: FC<Props> = memo(function Header(props = {}) {
           <Nav.Link href="#link" className={classes.pages}>
             Pages
           </Nav.Link>
-          <Nav.Link href="#link" className={classes.contact}>
+          <Nav.Link href="/contact" className={classes.contact}>
             Contact
           </Nav.Link>
         </Nav>

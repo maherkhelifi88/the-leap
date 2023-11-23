@@ -1,0 +1,628 @@
+.bg {
+  width: 1600px;
+  height: 934px;
+  background-color: #fff;
+}
+.questions {
+  margin-top:1750px;
+  margin-left:250px;
+  position: absolute;
+  width: min-content;
+  height: min-content;
+  align-items: flex-start;
+  gap: 120px;
+}
+.row1 {
+  width: min-content;
+  height: min-content;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 50px;
+}
+._1 {
+  width: min-content;
+  height: min-content;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+.doIHaveToPayForEachAgentAccoun {
+  color: #083c2f;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.3px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.yesWeChargeAFeeForEveryAgentAc {
+  width: 505px;
+  height: min-content;
+  flex-direction: column;
+}
+.labelWrapper {
+  font-size: 16px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  flex-shrink: 1;
+}
+.label {
+  color: #3c4a47;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.3px;
+}
+.label2 {
+  color: #3c4a47;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.3px;
+}
+.line63 {
+  width: 505px;
+  max-width: 100%;
+  height: 0;
+  max-height: 100%;
+  border-bottom: solid 1px #e0e5e4;
+  margin-bottom: -1px;
+}
+._3 {
+  width: min-content;
+  height: min-content;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+.doYouProvideCustomerServiceAge {
+  color: #083c2f;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.3px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.itIsALongEstablishedFactThatAR {
+  color: #3c4a47;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.3px;
+  width: 505px;
+  height: min-content;
+  flex-direction: column;
+}
+.line64 {
+  width: 505px;
+  max-width: 100%;
+  height: 0;
+  max-height: 100%;
+  border-bottom: solid 1px #e0e5e4;
+  margin-bottom: -1px;
+}
+._5 {
+  width: min-content;
+  height: min-content;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+.doYouOfferAnAnnualPaymentOptio {
+  color: #083c2f;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.3px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.pleaseReachOutToUsAndWeWillBeH {
+  color: #3c4a47;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.3px;
+  width: 505px;
+  height: min-content;
+  flex-direction: column;
+}
+.row2 {
+  width: min-content;
+  height: min-content;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 50px;
+}
+._2 {
+  width: min-content;
+  height: min-content;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+.howManyAgentsCanIAddToMyAccoun {
+  color: #083c2f;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.3px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.youCanInviteUpTo400AgentsInThe {
+  color: #3c4a47;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.3px;
+  width: 505px;
+  height: min-content;
+  flex-direction: column;
+}
+.line65 {
+  width: 505px;
+  max-width: 100%;
+  height: 0;
+  max-height: 100%;
+  border-bottom: solid 1px #e0e5e4;
+  margin-bottom: -1px;
+}
+._4 {
+  width: min-content;
+  height: min-content;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+.willIGetMoneyBackIfIAmNotSatis {
+  color: #083c2f;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.3px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.weAcceptAllMajorCreditCardsThe {
+  color: #3c4a47;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.3px;
+  width: 505px;
+  height: min-content;
+  flex-direction: column;
+}
+.line66 {
+  width: 505px;
+  max-width: 100%;
+  height: 0;
+  max-height: 100%;
+  border-bottom: solid 1px #e0e5e4;
+  margin-bottom: -1px;
+}
+._6 {
+  width: min-content;
+  height: min-content;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+.doesThisThemeSupportsPlugins {
+  color: #083c2f;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.3px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.everyNewResponseAfterYourLimit {
+  color: #3c4a47;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.3px;
+  width: 505px;
+  height: min-content;
+  flex-direction: column;
+}
+.commonQuestionsAnswers {
+  margin-top:1580px;
+  margin-left:300px;
+  position: absolute;
+  background-image: linear-gradient(180deg, #083c2fff 0%, #083c2f82 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 48px;
+  line-height: 58px;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -2px;
+  width: 600px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.commonQuestionsAnswerss {
+  margin-top:1580px;
+  margin-left:610px;
+  position: absolute;
+  background-image: linear-gradient(180deg, #083c2fff 0%, #083c2f82 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 48px;
+  line-height: 58px;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -2px;
+  width: 600px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+
+/* Mobile-specific styles */
+@media screen and (max-width: 700px) {
+  .bg {
+    width: 1600px;
+    height: 934px;
+    background-color: #fff;
+  }
+  .questions {
+    display: flex;
+    flex-direction: column;
+    margin-top:1900px;
+    margin-left:20px;
+    position: absolute;
+    width: min-content;
+    height: min-content;
+    align-items: flex-start;
+    gap: 120px;
+  }
+  .row1 {
+    width: min-content;
+    height: min-content;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 50px;
+  }
+  ._1 {
+    width: min-content;
+    height: min-content;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+  }
+  .doIHaveToPayForEachAgentAccoun {
+    color: #083c2f;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -0.3px;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  .yesWeChargeAFeeForEveryAgentAc {
+    width: 370px;
+    height: min-content;
+    flex-direction: column;
+  }
+  .labelWrapper {
+    font-size: 16px;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    flex-shrink: 1;
+  }
+  .label {
+    color: #3c4a47;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -0.3px;
+  }
+  .label2 {
+    color: #3c4a47;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -0.3px;
+  }
+  .line63 {
+    width: 370px;
+    max-width: 100%;
+    height: 0;
+    max-height: 100%;
+    border-bottom: solid 1px #e0e5e4;
+    margin-bottom: -1px;
+  }
+  ._3 {
+    width: min-content;
+    height: min-content;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+  }
+  .doYouProvideCustomerServiceAge {
+    color: #083c2f;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -0.3px;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  .itIsALongEstablishedFactThatAR {
+    color: #3c4a47;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -0.3px;
+    width: 370px;
+    height: min-content;
+    flex-direction: column;
+  }
+  .line64 {
+    width: 370px;
+    max-width: 100%;
+    height: 0;
+    max-height: 100%;
+    border-bottom: solid 1px #e0e5e4;
+    margin-bottom: -1px;
+  }
+  ._5 {
+    width: min-content;
+    height: min-content;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+  }
+  .doYouOfferAnAnnualPaymentOptio {
+    color: #083c2f;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -0.3px;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  .pleaseReachOutToUsAndWeWillBeH {
+    color: #3c4a47;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -0.3px;
+    width: 370px;
+    height: min-content;
+    flex-direction: column;
+  }
+  .row2 {
+    width: min-content;
+    height: min-content;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 50px;
+    margin-top: -50px;
+  }
+  ._2 {
+    width: min-content;
+    height: min-content;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+  }
+  .howManyAgentsCanIAddToMyAccoun {
+    color: #083c2f;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -0.3px;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  .youCanInviteUpTo400AgentsInThe {
+    color: #3c4a47;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -0.3px;
+    width: 370px;
+    height: min-content;
+    flex-direction: column;
+  }
+  .line65 {
+    width: 370px;
+    max-width: 100%;
+    height: 0;
+    max-height: 100%;
+    border-bottom: solid 1px #e0e5e4;
+    margin-bottom: -1px;
+  }
+  ._4 {
+    width: min-content;
+    height: min-content;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+  }
+  .willIGetMoneyBackIfIAmNotSatis {
+    color: #083c2f;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -0.3px;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  .weAcceptAllMajorCreditCardsThe {
+    color: #3c4a47;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -0.3px;
+    width: 370px;
+    height: min-content;
+    flex-direction: column;
+  }
+  .line66 {
+    width: 370px;
+    max-width: 100%;
+    height: 0;
+    max-height: 100%;
+    border-bottom: solid 1px #e0e5e4;
+    margin-bottom: -1px;
+  }
+  ._6 {
+    width: min-content;
+    height: min-content;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+  }
+  .doesThisThemeSupportsPlugins {
+    color: #083c2f;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -0.3px;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  .everyNewResponseAfterYourLimit {
+    color: #3c4a47;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -0.3px;
+    width: 370px;
+    height: min-content;
+    flex-direction: column;
+  }
+  .commonQuestionsAnswers {
+    margin-top:1750px;
+    margin-left:0px;
+    position: absolute;
+    background-image: linear-gradient(180deg, #083c2fff 0%, #083c2f82 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 38px;
+    line-height: 58px;
+    font-weight: 600;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -2px;
+    width: 400px;
+    height: min-content;
+    text-align: center;
+    align-items: center;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  .commonQuestionsAnswerss {
+    margin-top:1800px;
+    margin-left:00px;
+    position: absolute;
+    background-image: linear-gradient(180deg, #083c2fff 0%, #083c2f82 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 38px;
+    line-height: 58px;
+    font-weight: 600;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -2px;
+    width: 400px;
+    height: min-content;
+    text-align: center;
+    align-items: center;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+
+}

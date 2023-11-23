@@ -1,26 +1,27 @@
 /* Existing styles for larger screens */
 .button.button {
-  left: 94.8936%;
+  left: 24.8936%;
   right: 0;
   top: 0;
   bottom: 0;
   align-self: flex-start;
 }
 .root {
-  width: 1296px;
+  width: 1310px;
   height: min-content;
   place-content: space-between;
   align-items: center;
   z-index: 2;
   margin-top: 25px;
-  margin-left: -00px;
+  margin-left: 30px;
 }
 .menu {
-  width: min-content;
+  width:800px;
   height: min-content;
   place-content: center;
   align-items: center;
   gap: 42px;
+  left:100px;
 }
 .home,
 .about,
@@ -53,8 +54,7 @@
     'Liberation Sans', sans-serif;
   letter-spacing: -0.3px;
   position: absolute;
-  left: 70%;
-  right: 90.4255%;
+  margin-left: -20px;
   top: 22.9167%;
   bottom: 27.0833%;
   width: min-content;
@@ -67,12 +67,18 @@
 
 /* Mobile-specific styles */
 @media screen and (max-width: 700px) {
-
+  .button.button {
+    left:34.8936%;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    align-self: flex-start;
+  }
   .logo{
-    left:0px;
+    left:-20px;
   }
   .root {
-    width: 100px;
+    width: 500px;
     height: min-content;
     place-content: space-between;
     align-items: center;
@@ -92,7 +98,7 @@
       'Liberation Sans', sans-serif;
     letter-spacing: -0.3px;
     position: absolute;
-    left: 60%;
+    left: 10%;
     right: 90.4255%;
     top: 22.9167%;
     bottom: 27.0833%;
