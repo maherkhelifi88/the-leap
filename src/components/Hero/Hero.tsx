@@ -119,7 +119,7 @@ export const Hero: FC<Props> = memo(function Hero(props = {}) {
           <div className={classes.title}>
             <div className={classes.connectWithCustomersSmartly}>UX Engineering Studio.</div>
             <div className={classes.nexoProvidesYouEverythingYouNe}>
-              We help you turn your ideas into user-centered products.
+              Refine, design, and test your ideas. 
             </div>
           </div>
         </div>
