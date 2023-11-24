@@ -45,7 +45,7 @@ export const Hero: FC<Props> = memo(function Hero(props = {}) {
             <div className={classes.image}>
               <ImageIcon className={classes.icon4} />
             </div>
-            <div className={classes.freddy}>Sarahh</div>
+            <div className={classes.freddy}>Sarah</div>
           </div>
           <button className={classes.button2}>
             <div className={classes.marketing}>UX engineering</div>
@@ -119,7 +119,7 @@ export const Hero: FC<Props> = memo(function Hero(props = {}) {
           <div className={classes.title}>
             <div className={classes.connectWithCustomersSmartly}>UX Engineering Studio.</div>
             <div className={classes.nexoProvidesYouEverythingYouNe}>
-              We help innovators test, design, and build the products and services of tomorrow.
+              Refine, design, and test your ideas. 
             </div>
           </div>
         </div>
