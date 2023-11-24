@@ -74,7 +74,7 @@ export const Form: FC<Props> = memo(function Form(props = {}) {
           <div className={classes.yourName}>Enter your question </div>
           <TextField
             fullWidth
-            label="e.g. What is Mezcal ?"
+            label="e.g. How do I test my product?"
             value={formData.question}
             onChange={(e) => setFormData({ ...formData, question: e.target.value })}
             className={classes.rectangle463} />
