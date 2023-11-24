@@ -27,10 +27,9 @@ export const HowItWorks: FC<Props> = memo(function HowItWorks(props = {}) {
           <div className={classes._12}>01</div>
         </div>
         <div className={classes.text}>
-          <div className={classes.uploadYourVideos}>Refine your idea</div>
+          <div className={classes.uploadYourVideos}>Workshop your idea</div>
           <div className={classes.creatingAccountToOurWebsiteAnd}>
-          Creating account to our website and use it for your required time. We always ready to give you support all
-            the time.
+          Craft your problem statement, define your customer segments, and refine your market differentiators.
           </div>
         </div>
       </div>
@@ -42,10 +41,9 @@ export const HowItWorks: FC<Props> = memo(function HowItWorks(props = {}) {
           <div className={classes._22}>02</div>
         </div>
         <div className={classes.text2}>
-          <div className={classes.getOurExpertsFeeback}>Test your market fit</div>
+          <div className={classes.getOurExpertsFeeback}>Build your MVP</div>
           <div className={classes.creatingAccountToOurWebsiteAnd2}>
-            Creating account to our website and use it for your required time. We always ready to give you support all
-            the time.
+            Collaborate with our UX Engineers to develop your Minimum Viable Product (MVP).
           </div>
         </div>
       </div>
