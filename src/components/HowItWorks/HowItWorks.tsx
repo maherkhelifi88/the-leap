@@ -55,10 +55,9 @@ export const HowItWorks: FC<Props> = memo(function HowItWorks(props = {}) {
           <div className={classes._32}>03</div>
         </div>
         <div className={classes.text3}>
-          <div className={classes.receiveNewSocialContent}>Outline your product plan</div>
+          <div className={classes.receiveNewSocialContent}>Test and refine</div>
           <div className={classes.creatingAccountToOurWebsiteAnd3}>
-            Creating account to our website and use it for your required time. We always ready to give you support all
-            the time.
+            Collaborate with our research team to collect user feedback and enhance your product to achieve optimal market fit.
           </div>
         </div>
       </div>
