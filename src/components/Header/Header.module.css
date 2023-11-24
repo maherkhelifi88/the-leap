@@ -50,6 +50,12 @@
   position: relative;
   width: 235px;
   height: 48px;
+  margin-right:-70px;
+}
+.button3 {
+  position: relative;
+  width: 235px;
+  height: 48px;
 }
 .logIn {
   color: #083c2f;
