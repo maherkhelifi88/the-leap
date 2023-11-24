@@ -1,6 +1,7 @@
 import React from 'react';
 import {Home} from './home';
 import {Contact} from './contact';
+import {Assistant} from './assistant';
 import { memo } from 'react';
 import type { FC } from 'react';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -14,6 +15,7 @@ export const App: FC<Props> = memo(function App(props = {}) {
         <Routes>
           <Route path="/" element={<Home/>} />
           <Route path="/contact" element={<Contact/>} />
+          <Route path="/assistant" element={<Assistant/>} />
         </Routes>
       </Router>
     </div>
