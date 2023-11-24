@@ -8,7 +8,6 @@ import { Header } from './components/Header/Header';
 import { HowItWorks } from './components/HowItWorks/HowItWorks';
 import { CTA } from './components/CTA/CTA';
 import { CTAB } from './components/CTAB/CTA';
-import { Content } from './components/Content/Content';
 import { Footer } from './components/Footer/Footer';
 import { Content3 } from './components/Content3/Content3';
 import { Content4 } from './components/Content4/Content3';
