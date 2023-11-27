@@ -56,6 +56,7 @@
   position: relative;
   width: 235px;
   height: 48px;
+  margin-left: -60px;
 }
 .logIn {
   color: #083c2f;
@@ -80,7 +81,7 @@
 /* Mobile-specific styles */
 @media screen and (max-width: 700px) {
   .button.button {
-    left:14.8936%;
+    left:1.8936%;
     right: 0;
     top: 0;
     bottom: 0;
@@ -90,7 +91,7 @@
     left:-20px;
   }
   .root {
-    width: 500px;
+    width: 100%;
     height: min-content;
     place-content: space-between;
     align-items: center;
