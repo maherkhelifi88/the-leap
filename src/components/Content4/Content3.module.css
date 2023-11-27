@@ -353,3 +353,183 @@
   }
 
 }
+
+@media screen and (min-width: 2001px) {
+  .getStartedNow {
+    color: #083c2f;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -0.3px;
+    width: min-content;
+    height: min-content;
+    text-align: end;
+    align-items: end;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  
+  .image {
+    position: absolute;
+    left: 821px;
+    top: 2742px;
+    width: 621px;
+    height: 568px;
+    place-content: center;
+    padding: 322.9119px 364.7509px;
+    border-radius: 16px;
+    background-image:/* webpackIgnore: true */ url('/assets/image.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  }
+  .text {
+    position: absolute;
+    left: 400px;
+    top: 2490px;
+    width: min-content;
+    height: min-content;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 116px;
+  }
+  .content {
+    width: min-content;
+    height: min-content;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 38px;
+  }
+  .title {
+    width: min-content;
+    height: min-content;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .customMadeReportsToMakeGreatDe {
+    background-image: linear-gradient(180deg, #083c2fff 0%, #083c2f82 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: 600;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -2px;
+    width: 514px;
+    height: min-content;
+    flex-direction: column;
+  }
+  .weHaveConsideredOurSolutionsTo {
+    color: #3c4a47;
+    font-size: 18px;
+    line-height: 28px;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -0.3px;
+    width: 532px;
+    height: min-content;
+    flex-direction: column;
+  }
+  .list {
+    width: min-content;
+    height: min-content;
+    align-items: center;
+    gap: 50px;
+  }
+  ._1 {
+    width: min-content;
+    height: min-content;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  ._20 {
+    color: #083c2f;
+    font-size: 72px;
+    line-height: 108%;
+    font-weight: 600;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -4px;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  .increaseInRetention {
+    color: #3c4a47;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -0.3px;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  .line249 {
+    width: 77px;
+    max-width: 100%;
+    height: 0;
+    max-height: 100%;
+    border-bottom: solid 1px #e0e5e4;
+    margin-bottom: -1px;
+    transform: matrix(0, 1, -1, 0, 0, 0);
+  }
+  ._2 {
+    width: min-content;
+    height: min-content;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  ._15X {
+    color: #083c2f;
+    font-size: 72px;
+    line-height: 108%;
+    font-weight: 600;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -4px;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  .userBaseGrowth {
+    color: #3c4a47;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -0.3px;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  .linkedinSalesSolutions1A8yP_5m {
+    position: absolute;
+    left: 1300px;
+    top: 2500px;
+    width: 698px;
+    height: 528px;
+    border-radius: 40px;
+    z-index: 5;
+  }
+  
+
+
+}

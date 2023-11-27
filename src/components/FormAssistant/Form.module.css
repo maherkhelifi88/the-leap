@@ -521,3 +521,162 @@
 
 
 }
+
+
+@media screen and (min-width: 2001px) {
+  .button.button {
+    width: 863px;
+    background-color: #c9f269;
+  }
+  .alert {
+    position: relative;
+    width: 100%; /* Adjust as needed */
+    height: 50px;
+    top: 100%; /* Position it below the button */
+    left: 0;
+    transform: translateY(10px); /* Adjust the vertical spacing as needed */
+    z-index: 1000;
+    padding: 10px; /* Add padding inside the alert */
+    box-sizing: border-box; /* Include padding in width calculation */
+    word-wrap: break-word; /* Break words that are too long */
+    overflow-wrap: break-word; /* Alternative to word-wrap for better support */
+    white-space: normal; /* Allow the text to wrap */
+  }
+  .singleMessage {
+    display: flex;
+    flex-direction: column; /* Stack question and answer vertically */
+    gap: 5px; /* Spacing between question and answer */
+  }
+  
+  .getStartedNow {
+    color: #083c2f;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -0.3px;
+    width: min-content;
+    height: min-content;
+    text-align: end;
+    align-items: end;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* This ensures padding does not affect the total width or height of elements */
+  }
+  
+  /* This class should be applied to the div that wraps the question and answer alerts */
+  .messageContainer {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: stretch; /* Make children fill the width */
+    gap: 10px; /* Spacing between each message pair */
+    margin-bottom: 20px; /* Space below the last message */
+    width: 100%;
+  }
+  
+  .questionAlert, .responseAlert {
+    word-break: break-word !important; /* Ensures text wraps to prevent overflow */
+    width: 100%;
+  }
+  .typ {
+    word-break: break-word !important; /* Ensures text wraps to prevent overflow */
+    width: 800px;
+  }
+  
+  .box {
+    position: absolute;
+    left: 30%;
+    height: max-content;
+    margin-top: 294px;
+    width: 864px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    border-radius: 16px;
+  }
+  ._1 {
+    position: relative;
+    width: 863px;
+    height: 94px;
+  }
+  .rectangle463 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 36.1702%;
+    bottom: 0;
+    width: 863px;
+    height: 60px;
+    outline: solid 1px #ffffff;
+    outline-offset: -1px;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  .eGMarkJones {
+    color: #3c4a47;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -0.3px;
+    position: absolute;
+    left: 2.4334%;
+    right: 84.1251%;
+    top: 55.3191%;
+    bottom: 19.1489%;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  .yourName {
+    color: #083c2f;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -0.3px;
+    position: absolute;
+    left: 0.1159%;
+    right: 90.3824%;
+    top: 0;
+    bottom: 74.4681%;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  
+  .newRestaurantCoverageRequest {
+    background-image: linear-gradient(180deg, #083c2fff 0%, #083c2f82 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: 600;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -2px;
+    position: absolute;
+    left: 40%;
+    margin-top: 155px;
+    width: min-content;
+    height:80px;
+    text-align: center;
+    align-items: center;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  
+
+}

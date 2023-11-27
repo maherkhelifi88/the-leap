@@ -31,7 +31,7 @@ export const Form: FC<Props> = memo(function Form(props = {}) {
     setResponse('');
 
     try {
-      const res = await axios.post('http://localhost:3001/api/assistant/message', {
+      const res = await axios.post('https://leapback-d796b66e0016.herokuapp.com/api/assistant/message', {
         message: formData.question,
         conversation_id: conversationId
       });

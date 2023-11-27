@@ -256,3 +256,137 @@
   }
 
 }
+
+@media screen and (min-width: 2001px) {
+
+  .screenshot20231116At11491 {
+    position: absolute;
+    left: 1492px;
+    top: 4321px;
+    width: 280px;
+    height: 43px;
+    background-image:/* webpackIgnore: true */ url('/assets/screenshot20231116At11491.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .leadership {
+    color: #000;
+    font-size: 58px;
+    line-height: 58px;
+    font-weight: 600;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: -2px;
+    position: absolute;
+    left: 1150px;
+    top: 3960px;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  .image4 {
+    position: absolute;
+    left: 600px;
+    top: 4174px;
+    width: 277px;
+    height: 65px;
+    background-image:/* webpackIgnore: true */ url('/assets/image4.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .image5 {
+    position: absolute;
+    left: 900px;
+    top: 4166px;
+    width: 176px;
+    height: 60px;
+    background-image:/* webpackIgnore: true */ url('/assets/image5.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .image6 {
+    position: absolute;
+    left: 1309px;
+    top:4166px;
+    width: 213px;
+    height: 82px;
+    background-image:/* webpackIgnore: true */ url('/assets/image6.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .image9 {
+    position: absolute;
+    left: 904px;
+    top: 4295px;
+    width: 70px;
+    height: 78px;
+    background-image:/* webpackIgnore: true */ url('/assets/image9.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .image11 {
+    position: absolute;
+    left: 1092px;
+    top: 4174px;
+    width: 257px;
+    height: 77px;
+    background-image:/* webpackIgnore: true */ url('/assets/image11.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .image7 {
+    position: absolute;
+    left: 1596px;
+    top: 4176px;
+    width: 234px;
+    height: 45px;
+    background-image:/* webpackIgnore: true */ url('/assets/image7.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .image8 {
+    position: absolute;
+    left: 653px;
+    top: 4285px;
+    width: 219px;
+    height: 88px;
+    background-image:/* webpackIgnore: true */ url('/assets/image8.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .image10 {
+    position: absolute;
+    left: 1301px;
+    top: 4285px;
+    width: 83px;
+    height: 100px;
+    background-image:/* webpackIgnore: true */ url('/assets/image10.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .image12 {
+    position: absolute;
+    left: 1022px;
+    top: 4285px;
+    width: 201px;
+    height: 118px;
+    background-image:/* webpackIgnore: true */ url('/assets/image12.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  
+
+
+}

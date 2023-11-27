@@ -19,7 +19,6 @@ export const Content3: FC<Props> = memo(function Content3(props = {}) {
   return (
     <>
     <div className={`${resets.storybrainResets} ${classes.root}`}>
-      <div className={classes.bg}></div>
       <div className={classes.text}>
         <div className={classes.title}>
           <div className={classes.title2}>
