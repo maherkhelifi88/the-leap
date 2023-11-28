@@ -5,7 +5,7 @@
   width: 250px;
 }
 .button.button {
-  left: 24.8936%;
+  left: 50%;
   right: 0;
   top: 0;
   bottom: 0;
@@ -56,7 +56,7 @@
   position: relative;
   width: 235px;
   height: 48px;
-  margin-left: -60px;
+  margin-left: 10px;
 }
 .logIn {
   color: #083c2f;
