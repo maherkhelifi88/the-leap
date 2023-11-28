@@ -21,7 +21,15 @@
   flex-direction: column; /* Stack question and answer vertically */
   gap: 5px; /* Spacing between question and answer */
 }
-
+/* This class should be applied to the div that wraps the question and answer alerts */
+.messageContainer {
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  align-items: stretch; /* Make children fill the width */
+  gap: 10px; /* Spacing between each message pair */
+  margin-bottom: 20px; /* Space below the last message */
+  width: 100%;
+}
 .getStartedNow {
   color: #083c2f;
   font-size: 16px;
@@ -43,15 +51,7 @@
   box-sizing: border-box; /* This ensures padding does not affect the total width or height of elements */
 }
 
-/* This class should be applied to the div that wraps the question and answer alerts */
-.messageContainer {
-  display: flex;
-  flex-direction: column; /* Stack children vertically */
-  align-items: stretch; /* Make children fill the width */
-  gap: 10px; /* Spacing between each message pair */
-  margin-bottom: 20px; /* Space below the last message */
-  width: 100%;
-}
+
 
 .questionAlert, .responseAlert {
   word-break: break-word !important; /* Ensures text wraps to prevent overflow */
@@ -82,31 +82,24 @@
   position: absolute;
   left: 0;
   right: 0;
+  width: 800px;
   top: 36.1702%;
   bottom: 0;
-  width: 863px;
   height: 60px;
+  padding: 0 10px;
   outline: solid 1px #ffffff;
   outline-offset: -1px;
-  border-radius: 8px;
+  border-radius: 5px;
   background-color: #fff;
+  overflow-y: visible !important;
+  overflow-x: hidden;
+  
+  word-wrap: break-word;
+  box-sizing: border-box;
 }
-.eGMarkJones {
-  color: #3c4a47;
-  font-size: 16px;
-  line-height: 24px;
-  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
-  letter-spacing: -0.3px;
-  position: absolute;
-  left: 2.4334%;
-  right: 84.1251%;
-  top: 55.3191%;
-  bottom: 19.1489%;
-  width: min-content;
-  height: min-content;
-  white-space: nowrap;
-  flex-direction: column;
+.rectangle463::placeholder {
+  font-size: smaller;
+  color: #a8a8a8;
 }
 .yourName {
   color: #083c2f;
@@ -155,10 +148,13 @@
 
 /* Mobile-specific styles */
 @media screen and (max-width: 700px) {
-
+  .button.button {
+    width: 363px;
+    background-color: #c9f269;
+  }
   .alert {
     position: relative;
-    width: 100%; /* Adjust as needed */
+    width: 90%;
     height: 50px;
     top: 100%; /* Position it below the button */
     left: 0;
@@ -188,11 +184,14 @@
     word-break: break-word !important; /* Ensures text wraps to prevent overflow */
     width: 100%;
   }
-
-  .button.button {
-    width: 363px;
-    background-color: #c9f269;
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* This ensures padding does not affect the total width or height of elements */
   }
+
+
   .getStartedNow {
     color: #083c2f;
     font-size: 16px;
@@ -212,7 +211,7 @@
     position: absolute;
     left: 30px;
     top: 50px;
-    width: 404px;
+    width: 400px;
     height: min-content;
     flex-direction: column;
     align-items: flex-start;
@@ -224,35 +223,32 @@
     width: 363px;
     height: 94px;
   }
+  .typ {
+    word-break: break-word !important; /* Ensures text wraps to prevent overflow */
+    width: 340px;
+  }
   .rectangle463 {
     position: absolute;
     left: 0;
     right: 0;
+    width: 300px;
     top: 36.1702%;
     bottom: 0;
-    width: 163px;
     height: 60px;
+    padding: 0 10px;
     outline: solid 1px #ffffff;
     outline-offset: -1px;
-    border-radius: 8px;
+    border-radius: 5px;
     background-color: #fff;
+
+    overflow-x: hidden;
+    overflow-y: visible;
+    word-wrap: break-word;
+    box-sizing: border-box;
   }
-  .eGMarkJones {
-    color: #3c4a47;
-    font-size: 16px;
-    line-height: 24px;
-    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-      'Liberation Sans', sans-serif;
-    letter-spacing: -0.3px;
-    position: absolute;
-    left: 2.4334%;
-    right: 84.1251%;
-    top: 55.3191%;
-    bottom: 19.1489%;
-    width: min-content;
-    height: min-content;
-    white-space: nowrap;
-    flex-direction: column;
+  .rectangle463::placeholder {
+    font-size: smaller;
+    color: #a8a8a8;
   }
   .yourName {
     color: #083c2f;

@@ -13,7 +13,7 @@ export const Assistant: FC<Props> = memo(function Assistant(props = {}) {
     <div className={`${resets.storybrainResets} ${classes.root}`}>
       <Header/>      
       <Form/>
-      <Footer/>
+    
     </div>
   );
 });

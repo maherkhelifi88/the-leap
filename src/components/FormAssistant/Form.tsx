@@ -31,26 +31,47 @@ export const Form: FC<Props> = memo(function Form(props = {}) {
     setResponse('');
 
     try {
-      const res = await axios.post('https://leapback-d796b66e0016.herokuapp.com/api/assistant/message', {
-        message: formData.question,
-        conversation_id: conversationId
-      });
+        const res = await axios.post('https://leapback-d796b66e0016.herokuapp.com/api/assistant/message', {
+            message: formData.question,
+            conversation_id: conversationId
+        }, {
+            headers: {
+                'Content-Type': 'application/json'
+            }
+        });
 
-      if (res.data) {
-        setResponse(res.data.reply);
-        setConversationId(res.data.conversation_id);
-        const newHistoryEntry = { question: formData.question, response: res.data.reply };
-        setConversationHistory([...conversationHistory, newHistoryEntry]);
-        setFormData({ ...formData, question: '' });
-
-      }
+        if (res.data && res.data.status === 'processing') {
+            setConversationId(res.data.conversation_id);
+            pollForResponse(res.data.conversation_id);
+        }
     } catch (error) {
-      console.error('Error while sending message:', error);
-      setResponse('There was an error processing your request.');
+        console.error('Error while sending message:', error);
+        setResponse('There was an error processing your request.');
+        setShowAlert(false);
     }
+};
 
-    setShowAlert(false);
-  };
+const pollForResponse = async (conversationId: string) => {
+    const intervalId = setInterval(async () => {
+        try {
+            const res = await axios.get(`https://leapback-d796b66e0016.herokuapp.com/api/assistant/check-status?conversation_id=${conversationId}`);
+
+            if (res.data.status === 'completed') {
+                clearInterval(intervalId);
+                setResponse(res.data.responses); // Assuming responses are stored as an array
+                const newHistoryEntry = { question: formData.question, response: res.data.responses };
+                setConversationHistory([...conversationHistory, newHistoryEntry]);
+                setFormData({ ...formData, question: '' });
+                setShowAlert(false);
+            }
+        } catch (error) {
+            console.error('Error while polling for response:', error);
+            clearInterval(intervalId);
+            setResponse('There was an error retrieving the response.');
+            setShowAlert(false);
+        }
+    }, 5000); // Poll every 5 seconds
+};
 
   return (
     <form onSubmit={handleSubmit}>
@@ -59,7 +80,7 @@ export const Form: FC<Props> = memo(function Form(props = {}) {
           {conversationHistory.map((entry, index) => (
             <div key={index} className={classes.singleMessage}>
               <Alert severity="info" className={classes.questionAlert}>
-              <Typography variant="h6">{entry.question}</Typography>
+              <Typography variant="h6" className={classes.typ} >{entry.question}</Typography>
                 
               </Alert>
               <Alert severity="success" className={classes.responseAlert}>
@@ -91,10 +112,19 @@ export const Form: FC<Props> = memo(function Form(props = {}) {
             Your answer is on the way, please wait!
           </Alert>
         )}
-
+  <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
       </div>
 
       <div className={classes.newRestaurantCoverageRequest}>Ask Leap Assistant</div>
     </form>
+    
   );
 });
